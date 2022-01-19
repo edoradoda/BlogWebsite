@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Elsie&family=Gruppo&family=Spartan&display=swap');
+
+@font-face {
+    font-family: Gruppo;
+    src: url(../fonts/Gruppo-Regular.ttf);
+ }
+ 
+ body {
+    /* font-family: Gruppo , cursive; */
+    font-family: 'Spartan', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+ }
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width:100%;
+    /* height: 300px; */
+    /* display: flex;
+    flex-flow: column wrap; */
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .containerCard {
+    padding: 2px 16px;
+  }
+
+
+  .photoBox {
+    width: 100%;
+    min-height: 16vh;
+  }
+
+  
