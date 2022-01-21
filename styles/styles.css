@@ -10,6 +10,11 @@
     font-family: 'Spartan', sans-serif;
     font-size: 13px;
     font-weight: 400;
+    background-color: #fafaf3;;
+ }
+
+ p {
+   text-align: justify;
  }
 
  .logoBox {
@@ -19,7 +24,7 @@
 
 
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 3px 4px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     width:100%;
   }
@@ -43,7 +48,7 @@
     flex-flow: row wrap;
     justify-content: space-around;
     row-gap: 15px;
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
 
   }
   .itemNav {
@@ -52,7 +57,19 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        border: 1px solid red;
+        /* border: 1px solid red; */
     }
+    .itemNav :hover{
+      box-shadow: 2px 4px 4px 0 rgba(187, 172, 88, 0.2);
+    }
+
+  .subTitle{
+    color: #c5c517;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 3px;
+    padding: 2px;
+  }
+ 
 
   

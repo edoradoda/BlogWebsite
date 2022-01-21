@@ -10,32 +10,40 @@
     "main"
     "rb"
     "ft";
-    border: 2px solid #fafad2;
+    /* border: 2px solid #fafad2; */
 }
-  /* add css for nested grid here */
-.nestedGrid {
+    /* add css for nested grid here */
+  .nestedGrid {
+      display:flex;
+      flex-flow: column wrap;
+      align-items:center;
+      /* border: 2px solid #fafad2; */
+  }
+
+  .perfilContainer {
     display:flex;
-    /* flex-direction: column; */
     flex-flow: column wrap;
     align-items:center;
-    border: 2px solid #fafad2;
+    margin-top: 50px;
+    /* border: 2px solid #fafad2; */
 }
+    .nestedCard {
+      display:flex;
+      flex-flow: column wrap;
+      align-items:left;
+    }
 
-.nestedCard {
-  display:flex;
-  /* flex-direction: column; */
-  flex-flow: column wrap;
-  align-items:left;
-}
+
     .box {
-      /* border: 1px solid rgb(212, 68, 11); */
-      background: #fafaf3;
+      /* background: #fafaf3; */
+      padding: 3px;
     }
 
 
     .navbar {
       /* row start/column start/ row end/ column end */
       grid-area:nv;
+      box-shadow: 0 4px 0px 0 rgb(228 224 175 / 20%);
     }
     .footer {
       grid-area: ft;  
@@ -48,12 +56,19 @@
       }
     .content {
       grid-area: main;
+      padding-top: 20px;
     }
-/* 
-    #atomOne{
-      background-image: url('../images/atomo-1.jpg');
+
+    #photoPerfil{
+      background-image: url('../images/molecula-1.jpg');
       background-size: contain;
-    } */
+    }
+
+    .boxPerfil{
+      width: 183px;
+      height: 185px;
+      border-radius: 167px;
+    }
 
 
   /* If Screen Is Wide Enough */
@@ -61,7 +76,7 @@
   .container {
         display: grid;
         grid-template-columns: 300px 300px 300px;
-        grid-template-rows: 100px auto 100px;
+        grid-template-rows: 75px auto 100px;
         grid-template-areas: 
         "nv nv nv nv nv nv nv nv"
         "lb main main main main main main rb"
