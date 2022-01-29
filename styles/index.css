@@ -26,7 +26,7 @@
     align-items:center;
     margin-top: 50px;
     /* border: 2px solid #fafad2; */
-}
+  }
     .nestedCard {
       display:flex;
       flex-flow: column wrap;
@@ -64,11 +64,7 @@
       background-size: contain;
     }
 
-    .boxPerfil{
-      width: 183px;
-      height: 185px;
-      border-radius: 167px;
-    }
+    
 
 
   /* If Screen Is Wide Enough */

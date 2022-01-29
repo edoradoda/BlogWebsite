@@ -10,7 +10,7 @@
     "ft";
   }
  
-  .box{
+    .box{
       /* border: 1px solid red; */
       /* background: #F8FA9D; */
       }
@@ -23,14 +23,14 @@
       grid-area: ft;  
     }
    
-    .authorInfo{
+    .form{
       grid-area: main;
       background-color: #fff;
       margin-top: 10px;
       border-radius: 10px;
     }
 
-    .authorFlow {
+    .formFlow {
       display:flex;
       flex-flow: column;
       align-items:center;
@@ -40,32 +40,6 @@
       padding: 10px;
   }
 
-    #avatar{
-      background-image: url('../images/usuario.png');
-      background-size: contain;
-    }
-
-    .authorInfoText {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      grid-template-rows: repeat(4, 1fr);
-      grid-column-gap: 5px;
-      /* display: flex;
-      flex-direction: column; */
-    }
-
-    .authorInfoText h3 {
-      margin-left: 2vh;
-    }
-    .authorInfoText p {
-      padding-top: 5px;
-    }
-
-    .fileUpload {
-      opacity: 0;
-      margin-top: 71px;
-      cursor: pointer;
-  }
 
   
 
