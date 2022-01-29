@@ -57,6 +57,9 @@
     .content {
       grid-area: main;
       padding-top: 20px;
+      background-color: #f3fafa;
+      margin: 10px;
+      padding: 10px;
     }
 
     #photoPerfil{

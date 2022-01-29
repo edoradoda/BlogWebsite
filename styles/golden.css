@@ -24,6 +24,12 @@
    text-align: justify;
  }
 
+ input {
+  border-radius: 11px;
+  border: 1px solid #d2b732;
+  padding: 5px;
+ }
+
  .logoBox {
     width: 40%;
     min-height: 1vh;
@@ -34,6 +40,7 @@
     box-shadow: 0 3px 4px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     width:100%;
+    background-color: #fff;
   }
   
   .card:hover {
