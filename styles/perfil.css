@@ -1,0 +1,17 @@
+.perfilContainer {
+    display:flex;
+    flex-flow: column wrap;
+    align-items:center;
+    margin-top: 50px;
+    /* border: 2px solid #fafad2; */
+}
+  .nestedCard {
+    display:flex;
+    flex-flow: column wrap;
+    align-items:left;
+  }
+
+  #photoPerfil{
+    background-image: url('../images/molecula-1.jpg');
+    background-size: contain;
+  }

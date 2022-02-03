@@ -1,0 +1,42 @@
+  .navbarFlow {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    row-gap: 15px;
+  }
+  .itemNav {
+        width: 150px;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* border: 1px solid red; */
+    }
+    .itemNav :hover{
+      box-shadow: 0 4px 0px 0 rgb(228 224 175 / 20%);
+    }
+
+  .headerFlow {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: flex-start;
+      align-items: center;
+      row-gap: 15px;
+      height: 75px;
+  }
+  .itemHead {
+        width: 150px;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* border: 1px solid red; */
+    }
+    .itemHead :hover{
+      box-shadow: 0 4px 0px 0 rgb(228 224 175 / 20%);
+    }
+
+
+
+  
+  

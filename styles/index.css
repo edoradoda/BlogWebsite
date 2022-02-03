@@ -1,3 +1,9 @@
+@import "golden.css";
+@import "navbar.css";
+@import "perfil.css";
+
+/* @import url("navbar.css"); */
+
 .container {
     display:grid;
     grid-template-columns: 100%;
@@ -19,27 +25,10 @@
       align-items:center;
       /* border: 2px solid #fafad2; */
   }
-
-  .perfilContainer {
-    display:flex;
-    flex-flow: column wrap;
-    align-items:center;
-    margin-top: 50px;
-    /* border: 2px solid #fafad2; */
-  }
-    .nestedCard {
-      display:flex;
-      flex-flow: column wrap;
-      align-items:left;
-    }
-
-
     .box {
       /* background: #fafaf3; */
       padding: 3px;
     }
-
-
     .navbar {
       /* row start/column start/ row end/ column end */
       grid-area:nv;
