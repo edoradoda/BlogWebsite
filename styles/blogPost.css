@@ -65,6 +65,10 @@
       padding-top: 5px;
     }
 
+    .authorInfoText blockquote {
+      padding-top: 10px;
+    }
+
     .fileUpload {
       opacity: 0;
       margin-top: 71px;
@@ -86,7 +90,7 @@
   .container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 75px 550px 75px;
+    grid-template-rows: 75px 600px 75px;
     grid-template-areas:
         "hd hd hd hd hd hd "
         "sd sd main main rt rt"
